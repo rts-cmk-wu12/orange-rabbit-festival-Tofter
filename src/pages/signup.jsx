@@ -8,11 +8,11 @@ import formImg from '../assets/form_img.png';
 function Signup() {
     return ( 
         <>
-            <div className="gridContainer">
+            <div className="flexContainer">
             <img src={formImg} alt="Orange Festival" />
+            
                 <Forms/>
             </div>
-            
         </>
      );
 }
